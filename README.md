@@ -32,6 +32,8 @@ Dans un second temps nous introduirons du bruit à nos données afin d'observer 
 On retrouve des résultats très concluants !
 
 
-Sources : https://ai.plainenglish.io/denoising-autoencoder-in-pytorch-on-mnist-dataset-a76b8824e57e
+Sources : 
+
+		https://ai.plainenglish.io/denoising-autoencoder-in-pytorch-on-mnist-dataset-a76b8824e57e
 
 		https://www.kaggle.com/code/stephanedc/tutorial-keras-autoencoders
