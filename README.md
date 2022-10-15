@@ -18,6 +18,8 @@ Pour ce faire nous utiliserons les packages python torch et keras que nous appli
 
 Dans un premier temps, nous comparerons les résultats de classification des autoencodeurs à celle d'un autre outil de classification. Ici nous avons choisi la forêt aléatoire. Cela nous permettra de comparer leurs MSE sur un même jeux de données !
 
+<img src="https://github.com/lucea97217/Autoencoder_/blob/main/Capture%20d’écran%202022-10-14%20à%2020.57.00.png" >
+
 Nous observerons que les résultats donnés par la méthode de forêt aléatoire s'avère moins concluants que ceux donnés par la méthode autoencoder.
 
 ## II. Denoising autoencoder (DAE)
