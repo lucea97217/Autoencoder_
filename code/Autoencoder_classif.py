@@ -134,7 +134,7 @@ classifier = Sequential()
 classifier.add(Conv2D(filters = 32, kernel_size = (5, 5), activation='relu', padding='Same', input_shape = (IMG_SIZE, IMG_SIZE, 1)))
 classifier.add(Conv2D(filters = 64, kernel_size = (3, 3), activation='relu', padding='Same'))
 classifier.add(MaxPooling2D(strides=(2,2))) #réduction de taille
-classifier.add(Dropout(0.25)) #désactivation aléatoire de neuronne
+classifier.add(Dropout(0.25)) #désactivation aléatoire de neuronne pour eviter le surentrainement
 
 
 #%%
